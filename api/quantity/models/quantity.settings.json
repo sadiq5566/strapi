@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quantities",
+  "info": {
+    "name": "Quantity"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Quantity": {
+      "type": "string"
+    }
+  }
+}

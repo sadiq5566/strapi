@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tests",
+  "info": {
+    "name": "test",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "AddOns": {
+      "type": "string"
+    },
+    "super_category": {
+      "model": "super-categories"
+    },
+    "child_category": {
+      "model": "child-categories"
+    },
+    "parent_check_list": {
+      "model": "parent-check-list"
+    },
+    "child_check_list": {
+      "model": "child-check-list"
+    }
+  }
+}
